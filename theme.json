@@ -4,24 +4,162 @@
   "settings": {
     "color": {
       "defaultPalette": false,
-      "palette": []
+      "palette": [
+        {
+          "color": "#263159",
+          "name": "Night Sky",
+          "slug": "night-sky"
+        },
+        {
+          "color": "#678983",
+          "name": "Grassy Land",
+          "slug": "grassy-land"
+        },
+        {
+          "color": "#FFFBEB",
+          "name": "Marmer White",
+          "slug": "marmer-white"
+        },
+        {
+          "color": "#222222",
+          "name": "Styx Black",
+          "slug": "styx-black"
+        }
+      ]
     },
-    "layout": {},
+    "layout": {
+      "contentSize": "1000px",
+      "wideSize": "1200px"
+    },
     "spacing": {
       "margin": true,
-      "padding": true
+      "padding": true,
+      "customSpacingSize": false,
+      "spacingScale": {
+        "operator": "+",
+        "increment": 0.5,
+        "steps": 8,
+        "mediumStep": 1.5,
+        "unit": "rem"
+      },
+      "units": [
+        "px", "rem"
+      ]
     },
     "typography": {
       "dropCap": true,
-      "fontFamilies": [],
-      "fontSizes": []
+      "fontFamilies": [
+        {
+          "name": "Rubik",
+          "slug": "rubik",
+          "fontFamily": "Rubik, Helvetica, sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Rubik",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/rubik-regular.woff2" ]
+            },
+            {
+              "fontFamily": "Rubik",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/rubik-700.woff2" ]
+            },
+            {
+              "fontFamily": "Rubik",
+              "fontWeight": "900",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/rubik-900.woff2" ]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Body",
+          "size": "1rem",
+          "slug": "body"
+        },
+        {
+          "name": "Heading 1",
+          "size": "3.052rem",
+          "slug": "h1"
+        },
+        {
+          "name": "Heading 2",
+          "size": "2.441rem",
+          "slug": "h2"
+        },
+        {
+          "name": "Heading 3",
+          "size": "1.953rem",
+          "slug": "h3"
+        },
+        {
+          "name": "Heading 4",
+          "size": "1.563rem",
+          "slug": "h4"
+        },
+        {
+          "name": "Heading 5",
+          "size": "1.25rem",
+          "slug": "h5"
+        }
+      ]
     }
   },
   "styles": {
     "blocks": {},
-    "color": {},
-    "typography": {},
-    "elements": {}
+    "color": {
+      "background": "var(--wp--preset--color--marmer-white)",
+      "text": "var(--wp--preset--color--styx-black)"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--rubik)",
+      "lineHeight": "1.5"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "lineHeight": "1.2",
+          "fontWeight": "900"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--h-1)"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--h-2)"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--h-3)"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--h-4)"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--h-5)"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--body)"
+        }
+      }
+    }
   },
   "customTemplates": [],
   "templateParts": []
