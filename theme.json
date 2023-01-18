@@ -32,7 +32,6 @@
       "wideSize": "1200px"
     },
     "spacing": {
-      "margin": true,
       "padding": true,
       "customSpacingSize": false,
       "spacingScale": {
@@ -162,5 +161,16 @@
     }
   },
   "customTemplates": [],
-  "templateParts": []
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header",
+      "title": "Header"
+    },
+    {
+      "area": "footer",
+      "name": "footer",
+      "title": "Footer"
+    }
+  ]
 }
