@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "defaultPalette": false,
+      "palette": []
+    },
+    "layout": {},
+    "spacing": {},
+    "typography": {
+      "dropCap": true,
+      "fontFamilies": [],
+      "fontSizes": []
+    }
+  },
+  "styles": {
+    "blocks": {},
+    "color": {},
+    "typography": {},
+    "elements": {}
+  },
+  "customTemplates": [],
+  "templateParts": []
+}
