@@ -7,7 +7,10 @@
       "palette": []
     },
     "layout": {},
-    "spacing": {},
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
     "typography": {
       "dropCap": true,
       "fontFamilies": [],
